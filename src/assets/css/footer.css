@@ -1,0 +1,31 @@
+.footer {
+	padding: 2rem;
+}
+
+.footer_1, .footer_2 {
+	padding: 1.2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.back {
+	background-color: yellow;
+}
+
+@media screen and (max-width: 800px) {
+  .footer_1, .footer_2 {
+  	flex-direction: column;
+  }
+}
+
+i {
+	padding: 0.6rem;
+}
+
+.footer_1 > div {
+	padding-top: 1rem;
+}
+.footer_2 > div {
+	padding-top: 1rem; 
+}

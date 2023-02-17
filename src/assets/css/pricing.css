@@ -1,0 +1,29 @@
+#video_pricing{
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+}
+
+.pricing_content {
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    background: rgba(40, 40, 40, 0.5);
+    color: #f1f1f1;
+    width: 60%;
+    left: 20%;
+  }
+
+  .pricing-content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+@media screen and (max-width: 800px) {
+    .pricing-content-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

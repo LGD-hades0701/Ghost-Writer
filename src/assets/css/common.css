@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 1.2rem;
+  overflow-x: hidden;
+  background-color: black;
+  color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0.3rem grey; 
+  border-radius: 0.6rem;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(70, 70, 70, 0.8); 
+  border-radius: 0.6rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(20, 20, 20, 1.0); 
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 0px solid #bbb;
+  width: 70%;
+}
+
+/* Rounded border */
+hr.rounded {
+  border-top: 0px solid #bbb;
+  border-radius: 0.2rem;
+}
+
+hr.dashed {
+  border-top: 1px dashed #bbb;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 70%;
+}
+
+hr.dotted {
+  border-top: 1px dotted #bbb;
+  border-radius: 70%;
+}
+/* ------------------- Font Setting ------------------------ */
+.very_big_font { /* very_lg_font */
+  font-size: 8vw;
+}
+.big_font { /* title_font */
+  font-size: 3rem;
+}
+.middle_font { /* lg_title_font */
+  font-size: 2rem;
+}
+.small_font { /* small_title_font */
+  font-size: 1.5rem;
+}
+.very_small_font {
+  font-size: 10px;
+}
+.padding-top-bottom-1rem {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.padding-top-bottom-2rem {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.padding-top-bottom-half-rem {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.padding-bottom-half-rem {
+  padding-bottom: 0.5rem;
+}
+.b {
+  font-weight: bold;
+}
+/* ------------------- Button Setting ------------------------ */
+.btn {
+  border-color: white;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 2rem;
+  margin: 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn:hover {
+  background-color: #333;
+}
+
+/* ------------------- Align Setting ------------------------ */
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+
+input[type=text], input[type=password], input[type=email] {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 2.5rem;
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+}
+
+textarea {
+  margin-top: 1rem;
+  margin-top: 1rem;
+  height: 14rem;
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+}
+
+textarea.other_back {
+  background-color: rgb(36, 38, 47);
+}
+
+.container_half {
+  display: flex;
+  direction: row;
+}
+
+/* ------------------- Length Setting ------------------------ */
+.full {
+  width: 100%;
+}
+.long {
+  width: 80%;
+}
+.very_long {
+  width: 90%;
+}
+.middle_long {
+  width: 70%;
+}
+.half {
+  width: 50%;
+}
+
+table, tr, th, td {
+  background-color: rgba(20, 10, 20, 0.5);
+  color: rgb(230, 230, 230);
+  border-color: white;
+  border-collapse: collapse;
+  border-style: solid;
+  border-width: 1px;
+}
+
+th {
+  background-color: black;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(59, 41, 29);
+}
+
+tr, th, td {
+  line-height: 2rem;
+}
+tr:hover {
+  background-color:rgb(79, 74, 70);
+  cursor: pointer;
+}
+table {
+  width: 100%;
+}
