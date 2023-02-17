@@ -31,16 +31,16 @@ class Home extends React.Component {
                         <div className="center big_font b">Song writing has never been so easy!</div>
                         <div className="section_2_container">
                         <div>
-                            <pre id="demo" className="center">
+                            {/* <pre id="demo" className="center">
                             Typing test is successful!
                             We are the champions, We are the best
                             We are the ones
                             End
-                            </pre>
+                            </pre> */}
                         </div>
                         <div>
-                            <pre className="small_font center">
-                                "Write a song like 
+                            {/* <pre className="small_font center">
+                                "Write a song like
                                 Thriller by Michael 
                                 Jackson"
 
@@ -55,7 +55,7 @@ class Home extends React.Component {
 
                                 "Write a chorus like 
                                 the Chainsmokers"
-                            </pre>
+                            </pre> */}
                         </div>
                     </div>
                 </div>
