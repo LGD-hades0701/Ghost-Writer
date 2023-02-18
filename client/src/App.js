@@ -5,11 +5,11 @@ import SignUp from './components/auth/SignUp';
 import ForgotPassword from './components/auth/ForgotPassword';
 import ResetPassword from './components/auth/ResetPassword';
 
-import './assets/css/common.css';
-import './assets/css/header.css';
-import './assets/css/home.css';
-import './assets/css/sign.css';
-import './assets/css/footer.css';
+import './css/common.css';
+import './css/header.css';
+import './css/home.css';
+import './css/sign.css';
+import './css/footer.css';
 
 function App() {
   return (
