@@ -1,0 +1,13 @@
+.dashboard_content {
+    position: relative;
+    margin-top: 6%;
+    bottom: 0;
+    background: rgba(40, 40, 40, 0.5);
+    color: #f1f1f1;
+    width: 80%;
+    left: 10%;
+  }
+
+  .dashboard_area {
+    padding: 3%;
+  }

@@ -1,0 +1,20 @@
+#video_contact{
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+}
+
+.contact_content {
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    background: rgba(40, 40, 40, 0.5);
+    color: #f1f1f1;
+    width: 60%;
+    left: 20%;
+  }
+
+  .contact_area {
+    padding: 3%;
+  }
+

@@ -1,0 +1,14 @@
+.sign_form_area {
+    
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 40%;
+    background-color: rgba(80, 80, 80, 0.4);
+}
+
+@media screen and (max-width: 800px) {
+    .sign_form_area {
+        margin-left: 10%;
+        width: 80%;
+    }
+  }
